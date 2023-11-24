@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #191919;
+}
+
+header{
+    display: flex;
+    background-color: #ffc017;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #191919;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+   font-family: 'Spectral', serif;
+}
+
+nav{
+    flex-basis: 30%;
+    margin-right: 2%;
+}
+
+ul{
+    list-style: none;
+    display: flex;    
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul li{
+    font-size: 0.8em;
+}
+
+#listCinque{
+    background-color: #191919;
+    border-radius: 20px;
+    color: white;
+    padding: 5%;
+    cursor: pointer;
+}
+
+#logo img{
+    padding: 12%;
+}
+
+#paragrafoUno{
+    width: 65%;
+    line-height: 0.9;
+}
+
+#titolo{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 5%;
+}
+
+#startReading {
+    text-decoration: none;
+    color: white;
+    background-color: #191919;
+    border-radius: 20px;
+    padding: 1% 5%;
+    width: 35%;
+    text-align: center;
+    margin: 5% 0;
+}
+
+#sezioneUno{
+    display: flex;
+    background-color: #ffc017;
+    border-bottom: solid 1px #191919;
+}
+
+section h1{
+    font-size: 3.5em;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+#sezioneDue #titoloDue{
+    display: flex;
+    align-items: center;
+    padding: 3% 3% 0 3%;
+    margin-top: 5%;
+}
+
+#titoloDue h2{
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.senso{
+    font-weight: bold;
+    margin: 5% 0;
+}
+
+.contenitoreAvviso{
+    display: flex;
+    align-items: start;
+    padding: 4%;
+}
+
+#numeroLeft{
+    flex-basis: 10%;
+}
+
+.immagineTesto img{
+    border-radius: 50%;
+    width: 4vw;
+    height: auto;
+}
+
+.immagineTesto p{
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.immagineTesto{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.scadenza{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+    font-size: 0.8em;
+}
+
+.contenitoreTesto{
+    margin-left: 5%;
+}
+
+.numeroLeft p{
+    opacity: 0.5;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20%;
+}
+
+.opacity{
+    opacity: 0.5;
+}
+
+#numeroSei{
+    margin-bottom: 10%;
+}
+
+#sezioneDue{
+    border-bottom: 1px solid #19191977 ;
+    margin-bottom: 10%;
+}
+
+#spiegazione{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+#tecnologia{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #19191977;
+    padding-top: 5%;
+}
+
+#tecnologia a{
+    text-decoration: none;
+    color: #191919;
+    opacity: 0.5;
+   
+    margin: 2%;
+}
+
+#spiegazione a{
+    text-decoration: none;
+    border: 1px solid #19191977;
+    color: #191919;
+    opacity: 0.5;
+    padding: 2%;
+    margin: 2%;
+}
+
+#sezioneTre{
+    padding: 4%;
+}
+
+#sezioneTre div h3{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 900;
+    margin-bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.autoreNovita img{
+    border-radius: 50%;
+    width: 4vw;
+    height: auto;
+}
+
+.autoreNovita{
+    display: flex;
+    align-items: center;
+}
+
+.autoreNovita p{
+    font-weight: 900;
+    font-size: 0.8em;
+
+}
+
+.Novita{
+    display: flex;
+    padding: 5%;
+    align-items: center;
+}
+
+
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+    flex-basis: 70%;
+    font-size: 0.8em;
+    align-items: center;
+}
+
+.contenitoreNovita{
+  flex-basis: 55%;
+}
+
+.foto{
+    flex-basis: 45%;
+}
+
+.foto img{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.stellina{
+    display: flex;
+}
+
+.stellina p{
+    background-color: rgba(109, 109, 109, 0.473);
+    border-radius: 20px;
+    padding: 5% 15%;
+}
+
+.titoloNovita h4{
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.titoloNovita p{
+    opacity: 0.7;
+    margin-bottom: 5%;
+}
+
+.totalFoot{
+    display: flex;
+    font-size: 0.8em;
+}
+
+.bollino{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 20vw;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width: 360px) {
+    
+
+#listUno,
+#listDue,
+#listTre{
+    display: none;
+}
+
+svg{
+    display: none;
+}
+
+}
+
+@media screen and (min-width: 800px) {
+    
+    svg{
+        display: block;
+    }
+
+    #listUno,
+    #listDue,
+    #listTre{
+        display: block;
+    }
+
+    nav{
+        flex-basis: 70%;
+    }
+
+    #listCinque{
+        padding: 2% 4%;
+    }
+
+    #paragrafoUno{
+        width: 90%;
+    }
+
+    #startReading{
+        width: 55%;
+        padding: 2% 10%;
+    }
+
+    .contenitoreAvviso{
+        flex-basis: 50%;
+    }
+
+    .recipiente{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+   
+
+    .recipiente{
+        width: 50%;
+    }
+    
+
+    #Avvisi{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ul{
+        width: 70%;
+    }
+
+    nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #optimusPrime{
+     position: relative;
+    }
+
+    #sezioneTre{
+        width: 50%;
+        position: absolute;
+        right: 0;
+        
+    }
+
+    #sezioneQuattro{
+        width: 50%;
+    }
+
+    #Avvisi > div:nth-child(2) > div:nth-child(2){
+        width: 30%;
+    }
+
+
+    #sezioneDue{
+        position: relative;
+    }
+
+    #Avvisi > div:nth-child(2) > div:nth-child(2){
+        position: absolute;
+        bottom: 1vh;
+        left: 5vw;
+    }
+
+    #Avvisi > div:nth-child(3)
+    {
+        position: relative;
+        bottom:0;
+        right: -32vw;
+    }
+
+    
+
+    #Avvisi > div:nth-child(1){
+        position: relative;
+        left: 7vw;
+    }
+
+    
+
+    #Avvisi > div:nth-child(2) > div:nth-child(1){
+        position: absolute;
+        right: 15vw;
+        top: 3vh;
+        width: 30%;
+    }
+}
