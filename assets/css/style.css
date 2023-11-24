@@ -394,41 +394,9 @@ svg{
         width: 50%;
     }
 
-    #Avvisi > div:nth-child(2) > div:nth-child(2){
+    .recipiente{
+        flex-direction: column;
         width: 30%;
     }
 
-
-    #sezioneDue{
-        position: relative;
-    }
-
-    #Avvisi > div:nth-child(2) > div:nth-child(2){
-        position: absolute;
-        bottom: 1vh;
-        left: 5vw;
-    }
-
-    #Avvisi > div:nth-child(3)
-    {
-        position: relative;
-        bottom:0;
-        right: -32vw;
-    }
-
-    
-
-    #Avvisi > div:nth-child(1){
-        position: relative;
-        left: 7vw;
-    }
-
-    
-
-    #Avvisi > div:nth-child(2) > div:nth-child(1){
-        position: absolute;
-        right: 15vw;
-        top: 3vh;
-        width: 30%;
-    }
 }
